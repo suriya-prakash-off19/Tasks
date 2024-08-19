@@ -115,6 +115,7 @@ namespace Ripple
             list.Add(new Rectangle(x - width / 2, y - height / 2, width, height));
             Alpha.Add(80);
             Invalidate();
+           
         }
         protected override void OnMouseHover(EventArgs e)
         {
